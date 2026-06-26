@@ -2,7 +2,7 @@
 
 void fib(int a, int b,int n)
 {
-    if(n==0)return;
+    if(!n)return;
     printf("%d ",a);
     return fib(b,a+b,--n);
 }
