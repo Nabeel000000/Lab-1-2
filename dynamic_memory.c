@@ -14,5 +14,6 @@ int main()
     for (int i = 0; i < n; i++)
         sum += a[i];
     printf("Average is: %d", sum / n);
+    free(a);
     return 0;
 }
