@@ -6,7 +6,18 @@ This directory contains a complete, robust implementation of a **Singly Linked L
 ---
 
 ## 🏗️ Data Structure Architecture
+This directory contains a complete, robust implementation of a **Singly Linked List** in C, wrapped using structured types (`LL` for the list container and `Node` for individual data elements) to track element count and manage dynamic allocations safely.
+```c
+typedef struct Node {
+    int val;
+    struct Node *next;
+} Node;
 
+typedef struct LL {
+    Node *head;
+    int cnt;
+} LL;
+```
 | Operation / Function | Average Case | Worst Case | Description |
 | :--- | :--- | :--- | :--- |
 | **Access / Search by Index** | O(N) | O(N) | Must traverse from the head node to the target index. |
