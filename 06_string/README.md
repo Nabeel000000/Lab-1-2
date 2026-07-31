@@ -3,13 +3,14 @@ This directory contains a custom **Dynamic String ADT** implementation in C. It 
 
 ### 🏗️ Data Structure Architecture
 The dynamic string is represented using a custom `struct`:
-
 ```c
 typedef struct S {
     char *str;  // Pointer to dynamic character array
     int size;   // Total allocated capacity
     int n;      // Current string length
 } S;
+````
+
 
 | Function       | Signature                             | Description                                            | Time Complexity |
 | :------------- | :------------------------------------ | :----------------------------------------------------- | :-------------- |
