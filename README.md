@@ -1,8 +1,8 @@
 # Data Structures and Algorithms: Labs 1 & 2
 
-**Student:** Nabeel [Add Last Name / Student ID]
-**Course:** [Insert Course Name/Number]
-**Term:** [Insert Semester/Year]
+**Student:** Nabeel 
+**Course:**  Data structure
+**Term:** 1,2
 
 ## Overview
 This repository contains my laboratory assignments and homework for . The exercises focus on implementing fundamental data structures, memory management, and classic algorithmic problem-solving in C.
